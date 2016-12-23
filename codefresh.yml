@@ -4,7 +4,7 @@ steps:
   build_prj:
     type: build
     description: Build an Image With Build Arguments
-    image_name: codefreshio/yaml-example-build-arguments
+    image_name: norjuliana/expressangular
     dockerfile: Dockerfile
     tag: ${{CF_BRANCH}}
     build_arguments:
